@@ -34,7 +34,7 @@ const Cart = ({ Active, cartItems, onRemove, onValidate }) => {
       <>
         <img
           className="h-32"
-          src="../src/assets/images/illustration-empty-cart.svg"
+          src="../public/images/illustration-empty-cart.svg"
           alt="Empty Cart"
         />
         <h3 className="text-Rose-500 text-sm self-center">
@@ -78,7 +78,7 @@ const Cart = ({ Active, cartItems, onRemove, onValidate }) => {
         </h4>
         <div className="bg-Rose-100 px-[15px] py-[12px] rounded-lg flex gap-[10px] w-[90%] my-4 mx-auto">
           <img
-            src="../src/assets/images/icon-carbon-neutral.svg"
+            src="../public/images/icon-carbon-neutral.svg"
             alt="carbon neutral"
           />
           <p className="text-sm font-light ">

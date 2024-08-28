@@ -8,7 +8,7 @@ const PurchaseValidation = ({ cartItems, onCancel }) => {
           className="mb-6 md:mb-2 md:h-12 md:w-12"
           width={60}
           height={60}
-          src="../src/assets/images/icon-order-confirmed.svg"
+          src="../public/images/icon-order-confirmed.svg"
           alt=""
         />
         <h2 className="text-2xl font-bold mb-4">Order confirmed</h2>
