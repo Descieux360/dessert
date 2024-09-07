@@ -43,6 +43,7 @@ export default function App() {
 
   function handleCancelPurchase() {
     setShowPurchaseValidation(false);
+    setCartItems([]);
   }
 
   return (

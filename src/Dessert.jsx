@@ -16,7 +16,7 @@ const Dessert = ({ name, category, price, image, handle }) => {
         sm:translate-y-[180%] md:translate-y-[155%] lg:translate-y-[140%] xl:translate-y-[110%] "
         onClick={handle}
       >
-        <img src="../public/images/icon-add-to-cart.svg" alt="Add to Cart" />
+        <img src="images/icon-add-to-cart.svg" alt="Add to Cart" />
         <p className="font-medium">Add to Cart</p>
       </span>
     </div>

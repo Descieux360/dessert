@@ -34,7 +34,7 @@ const Cart = ({ Active, cartItems, onRemove, onValidate }) => {
       <>
         <img
           className="h-32"
-          src="../public/images/illustration-empty-cart.svg"
+          src="images/illustration-empty-cart.svg"
           alt="Empty Cart"
         />
         <h3 className="text-Rose-500 text-sm self-center">
@@ -68,7 +68,7 @@ const Cart = ({ Active, cartItems, onRemove, onValidate }) => {
               className="text-red-500 self-start"
               onClick={() => onRemove(item.name)}
             >
-              <img src="../src/assets/images/icon-remove-item.svg" alt="" />
+              <img src="images/icon-remove-item.svg" alt="" />
             </button>
           </div>
         ))}
@@ -77,10 +77,7 @@ const Cart = ({ Active, cartItems, onRemove, onValidate }) => {
           {cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0)}
         </h4>
         <div className="bg-Rose-100 px-[15px] py-[12px] rounded-lg flex gap-[10px] w-[90%] my-4 mx-auto">
-          <img
-            src="../public/images/icon-carbon-neutral.svg"
-            alt="carbon neutral"
-          />
+          <img src="images/icon-carbon-neutral.svg" alt="carbon neutral" />
           <p className="text-sm font-light ">
             This is a <strong className="font-bold">Carbon Neutral</strong>{" "}
             delivery
